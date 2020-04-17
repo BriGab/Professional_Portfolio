@@ -1,7 +1,15 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfolio");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/portfolio", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+mongoose.connection
+  .once("open", () => console.log("connected"))
+  .on("error", (error) => {
+    console.log("err: ", error)
+  })
 
 const portSeed = [
 {
@@ -13,12 +21,12 @@ const portSeed = [
     heroku: "https://immense-retreat-62376.herokuapp.com/"
 },
 {
-    title:"Satisfy Your Craving",
-    description: " A dessert specific app with an easy to use design and succinct results.",
-    image: "/images/Dessert.PNG",
-    githubRepo: "https://github.com/hmbudzinski/OfficialProjectOne",
-    githubPages: "https://hmbudzinski.github.io/OfficialProjectOne/",
-    heroku: "null"
+    title:"Quarantivities",
+    description: "A boredom cure served up with MERN bringing you activity ideas from a team built API",
+    image: "/images/q.JPG",
+    githubRepo: "https://github.com/BriGab/Quarantivities",
+    githubPages: "null",
+    heroku: "https://rocky-inlet-27187.herokuapp.com/"
 },
 {
     title:"React Emloyee Directory",
@@ -56,13 +64,13 @@ const portSeed = [
 ]
 db.Portfolio
 .deleteMany({})
-.then(function() {
-    db.Portfolio.collection.insertMany(portSeed)})
-    .then(function(data) {
+.then(() => 
+    db.Portfolio.collection.insertMany(portSeed))
+    .then(data => {
         console.log(data.result.n + "records inserted")
         process.exit(0)
         })
-        .catch(function(err) {
+        .catch(err => {
             console.error(err);
             process.exit(1)
         })
