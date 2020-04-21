@@ -55,7 +55,7 @@ const portSeed = [
 {
     title:"Weather Dashboard",
     description: "Front end weather app using JQuery and Ajax to pull in Open Weather Map data for trip planning, simply type in a city name and get current + 5 day weather",
-    image: "/images/NoteTaker.JPG",
+    image: "/images/weathersm.JPG",
     githubRepo: "https://github.com/BriGab/weather-index",
     githubPages: "https://brigab.github.io/weather-index/",
     heroku: "null"

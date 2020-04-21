@@ -21,6 +21,8 @@ mongoose.connection
     console.log("err: ", error)
   })
 
+  app.use(require('./routes'))
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);

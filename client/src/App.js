@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./pages/Portfolio"
+// import Dummy from "./pages/dummy"
 // import Nav from "./components/Nav";
 
 function App() {
@@ -10,7 +11,6 @@ function App() {
         {/* <Nav /> */}
         <Switch>
           <Route exact path={["/", "/home"]} component={Portfolio}>
-            <Portfolio />
           </Route>
           {/* <Route exact path="/books/:id">
             <Detail />
