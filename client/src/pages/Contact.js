@@ -19,7 +19,7 @@ return ( <>
         <a href="https://www.linkedin.com/in/briana-gabiola" rel="noopener noreferrer" target="_blank"> <i id="linkedin" className="fa fa-linkedin-square"></i></a>
         <a href="https://github.com/BriGab" rel="noopener noreferrer" target="_blank"> <i id="git" className="fa fa-github"></i></a>
         <a href="mailto:brigabiola@outlook.com" rel="noopener noreferrer" target="_blank"><i id="email" className="fa fa-envelope"></i></a>
-        <a href="/images/Gabiola_Online_Resume.pdf" rel="noopener noreferrer" target="_blank"><i id="pdf" className="fa fa-file-pdf-o"></i></a>
+        <a href="/images/Gabiola_Resume.pdf" rel="noopener noreferrer" target="_blank"><i id="pdf" className="fa fa-file-pdf-o"></i></a>
         </div></center>
         <CopyRight/>
    </container>
