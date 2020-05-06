@@ -1,0 +1,14 @@
+#form {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 180, .7);
+    flex: 1 0 auto;
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width:750px) {
+    #form {
+        width: 80%
+    }
+}

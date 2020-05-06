@@ -6,9 +6,10 @@
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "axios": "^0.18.0",
-    "react": "^16.6.3",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.6.3",
+    "concurrently": "^4.1.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1"
   },

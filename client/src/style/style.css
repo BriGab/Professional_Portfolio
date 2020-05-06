@@ -1,0 +1,168 @@
+/* All pages provided padding for footer  */
+.all {
+    overflow: auto;
+    padding-bottom: 80px;
+}
+/* Background for contact and home page */
+.background {
+    background-image: url("/images/dark-flipped.jpg");
+    background-position: -250px -25px;
+    font-family:'Merriweather', serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+} 
+/* Home page styling */
+#name {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+#bio {
+    width: 40%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+#headShot {
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+}
+#tech {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.icon {
+    font-size: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+
+}
+.sp {
+    font-size: 4rem;
+}
+.white {
+    color:lightgrey !important;
+}
+/* Porfolio page styling */
+#port {
+    background-image: url("/images/dark.jpg");
+    background-size: cover;
+    font-family:'Merriweather', serif;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.carousel {
+    padding-top: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+#projects {
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+    font-weight: 700;
+
+}
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-indicators li {
+    background-color: darkgray;
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+/* Contact page styling */
+#contact {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
+    font-weight: 700;
+}
+#linkedin {
+    color: coral;
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+#git {
+    color: lightgray;
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 1rem;
+}
+#email {
+    color: coral;
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 1rem;
+    
+}
+#pdf {
+    color: lightgray;
+    font-size: 3rem;
+    text-align: center;
+}
+/* Media Queries */
+
+@media only screen and (max-width:1600px) {
+    .background {
+        background-image: url("/images/dark-flipped.jpg");
+        background-position: -400px -25px;
+    } 
+}
+
+@media only screen and (max-width:1300px) {
+    .background {
+        background-image: url("/images/dark-flipped.jpg");
+        background-position: -600px -25px;
+    } 
+}
+@media only screen and (max-width:1200px) {
+    #port {
+        background-position: -800px -25px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .background {
+        background-image: url("/images/dark-flipped.jpg");
+        background-position: -800px -25px;
+    } 
+}
+@media only screen and (max-width:500px) {
+    #name {
+        font-size: 3rem;
+    }
+    #projects, #contact {
+        font-size: 1.5rem;
+    }
+    #bio {
+        width: 80%;
+    }
+    #port {
+        background-position: -1000px -25px;
+    }
+}

@@ -15,50 +15,50 @@ const portSeed = [
 {
     title:"Mojo",
     description: "MoJo is a mood based journaling app designed to be a safe space for a mood influenced writing atmoshpere where users can save edit and comment on journal posts",
-    image: "/images/mojo.JPG",
+    image: "/images/Mojo.png",
     githubRepo: "https://github.com/BriGab/Project-Two",
-    githubPages: "null",
+    githubPages: null,
     heroku: "https://immense-retreat-62376.herokuapp.com/"
 },
 {
     title:"Quarantivities",
     description: "A boredom cure served up with MERN bringing you activity ideas from a team built API",
-    image: "/images/q.JPG",
+    image: "/images/Quarantivities.png",
     githubRepo: "https://github.com/BriGab/Quarantivities",
-    githubPages: "null",
+    githubPages: null,
     heroku: "https://rocky-inlet-27187.herokuapp.com/"
 },
 {
     title:"React Emloyee Directory",
-    description: "A dead simple React app showcasing ability to pull in 3rd party data and display dynamically. The search bar is powered by Object.values() to fitler by name, phone number, email, and date of birth.",
-    image: "/images/emp.JPG",
+    description: "A dead simple React app showcasing ability to pull in 3rd party data and display dynamically. The search bar is powered by Object.values() to filter search.",
+    image: "/images/React.png",
     githubRepo: "https://github.com/BriGab/React-Employee-Directory",
-    githubPages: "null",
+    githubPages: null,
     heroku: "https://mighty-cove-87859.herokuapp.com/"
 },
 {
-    title:"Budget Tracker PWA",
-    description: "Budget tracking application that allows for users to download as a progressive web app and keep track of expenses offline using indexedb.",
-    image: "/images/bud.JPG",
-    githubRepo: "https://github.com/BriGab/Budget-Tracker",
-    githubPages: "null",
-    heroku: "https://secret-oasis-00420.herokuapp.com/"
+    title:"Day Scheduler",
+    description: "This application allows a user to input events on each hour of the current work day and save them for future reference using local storage.",
+    image: "/images/Calendar.png",
+    githubRepo: "https://github.com/BriGab/Calendar-index.html",
+    githubPages: "https://brigab.github.io/Calendar-index.html/",
+    heroku: null
 },
 {
     title:"Express Note Taker",
     description: "Note Taker is an Express Node.js application that allows users to write, save, and delete notes",
-    image: "/images/NoteTaker.JPG",
+    image: "/images/Note.png",
     githubRepo: "https://github.com/BriGab/Note-Taker",
-    githubPages: "null",
+    githubPages: null,
     heroku: "https://quiet-depths-34552.herokuapp.com/"
 },
 {
     title:"Weather Dashboard",
     description: "Front end weather app using JQuery and Ajax to pull in Open Weather Map data for trip planning, simply type in a city name and get current + 5 day weather",
-    image: "/images/weathersm.JPG",
+    image: "/images/weather.png",
     githubRepo: "https://github.com/BriGab/weather-index",
     githubPages: "https://brigab.github.io/weather-index/",
-    heroku: "null"
+    heroku: null
 },
 
 ]
