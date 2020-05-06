@@ -10,7 +10,7 @@ return (
         <h1 id="name">Hi, I'm Bri</h1>
             <div id="bio">
                 <p> A full stack web developer from Boise, ID. 
-                    Inspired by the those AHA! moments and experienced 
+                    Inspired by those AHA! moments and experienced 
                     in creative problem solving. Eager to jump on a team
                     and collaborate on projects.
                 </p>
