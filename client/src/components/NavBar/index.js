@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css"
 
-
-
 function NavBar () {
+
+
+
   return (<>
-    <nav className="navStyle fixed-bottom navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navStyle fixed-bottom navbar navbar-expand-md navbar-light bg-light">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -14,7 +15,7 @@ function NavBar () {
       <div className="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-item">
             <Link
               to="/home"
               className={
@@ -31,7 +32,7 @@ function NavBar () {
 
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-item">
             <Link
               to="/portfolio"
               className={
@@ -48,7 +49,7 @@ function NavBar () {
 
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-item">
             <Link
               to="/contact"
               className={

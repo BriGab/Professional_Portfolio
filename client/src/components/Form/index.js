@@ -9,19 +9,16 @@ function SubmitForm () {
    function handleInputChange (event) {
         const { name, value } = event.target
         setState({...state, [name]: value})
-        console.log(state)
    }
 
    function handleFormSubmit (event) {
         event.preventDefault();
-        console.log("got here")
         API.postMessage({
             name: state.name,
             email: state.email,
             message: state.message
         })
         .then(res => {
-            console.log("got here")
             console.log(res)
         })
         .catch(err => {
