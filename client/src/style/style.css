@@ -1,6 +1,7 @@
 /* All pages provided padding for footer  */
 .all {
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding-bottom: 80px;
 }
 /* Background for contact and home page */
@@ -22,6 +23,21 @@
     font-weight: 700;
     color: white;
 }
+#main { 
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
 #bio {
     width: 40%;
     margin: auto;
@@ -43,7 +59,9 @@
     font-size: 3rem;
     display: inline-block;
     padding-right: 1rem;
-
+}
+.icon:hover {
+    filter: brightness(2)
 }
 .sp {
     font-size: 4rem;
@@ -66,7 +84,6 @@
 .carousel {
     padding-top: 2%;
     width: 80%;
-    margin: 0 auto;
 }
 #projects {
     color: white;

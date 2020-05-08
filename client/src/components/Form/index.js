@@ -9,6 +9,7 @@ function SubmitForm () {
    function handleInputChange (event) {
         const { name, value } = event.target
         setState({...state, [name]: value})
+        document.getElementById("hideMe").classList.remove("showMe")
    }
 
    function handleFormSubmit (event) {
@@ -19,30 +20,31 @@ function SubmitForm () {
             message: state.message
         })
         .then(res => {
-            console.log(res)
         })
         .catch(err => {
             console.log(err)
         })
+        document.getElementById("hideMe").className= "showMe"
+        document.getElementById("form").reset()
    }
 
 
     return (<>
         <form id="form">
-            <div class="form-group">
+            <div className="form-group">
                 <label for="formGroupExampleInput">Name</label>
-                    <input type="text" onChange = {handleInputChange} name="name" class="form-control" id="formGroupExampleInput" placeholder="John Smith"/>
+                    <input type="text" onChange = {handleInputChange} name="name" className="form-control" id="formGroupExampleInput" placeholder="John Smith"/>
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="formGroupExampleInput2">Email</label>
-                    <input type="email" onChange = {handleInputChange} name="email" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com"/>
+                    <input type="email" onChange = {handleInputChange} name="email" className="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com"/>
             </div>
-            <div class="form-group">
+            <div className="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" onChange = {handleInputChange} name="message"  id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea className="form-control" onChange = {handleInputChange} name="message"  id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <br/>
-            <button type="submit" onClick={handleFormSubmit}>Send</button>
+            <button type="submit" onClick={handleFormSubmit}>Send</button> <p id="hideMe">Message Sent!</p>
         </form> 
     </>)
 }

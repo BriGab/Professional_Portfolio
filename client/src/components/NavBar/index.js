@@ -12,7 +12,7 @@ function NavBar () {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+      <div className="collapse navbar-collapse justify-content-center style" id="navbarSupportedContent">
       <div>
         <ul className="navbar-nav">
           <li data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-item">

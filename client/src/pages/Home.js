@@ -5,7 +5,7 @@ import "../style/style.css"
 function Home () {
 
 return (
-<container className="background all fluid">
+<div className="background all fluid">
     <div id="main">
         <h1 id="name">Hi, I'm Bri</h1>
             <div id="bio">
@@ -38,7 +38,7 @@ return (
             </center>
     </div>
     <CopyRight/>
-</container>
+</div>
 )
 }
 

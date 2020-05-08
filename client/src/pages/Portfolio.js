@@ -31,7 +31,7 @@ function Portfolio () {
  
 
 return (
-   <Container id="port" fluid className="all">
+   <div id="port" className="all">
        <div><h6 id="projects">Featured Projects</h6></div>
         <Row>      
             <Col>
@@ -40,7 +40,7 @@ return (
                         <   i className="fa fa-spinner fa-spin fa-3x" aria-hidden="true" />
                         </div>
                     ) : (
-                    <Carousel className="carousel" activeIndex={index} onSelect={handleSelect} controls={true} indicators={true}>
+                    <center><Carousel className="carousel" activeIndex={index} onSelect={handleSelect} controls={true} indicators={true}>
                     
                         {myPortfolio.map(carousel => {
                             return (     
@@ -60,13 +60,13 @@ return (
                             )
                         })}
         
-                    </Carousel> 
+                    </Carousel></center>
                     )}
             </Col>
         
         </Row>
         <CopyRight />
-    </Container>
+    </div>
 )
 }
 export default Portfolio;

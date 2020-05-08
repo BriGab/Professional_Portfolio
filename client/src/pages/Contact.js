@@ -8,7 +8,7 @@ function Contact () {
 
 
 return ( <>
-    <container className="background all fluid" >
+    <div className="background all fluid" >
         <div><h6 id="contact">Let's Connect.</h6></div>
         <br/>
         <div>
@@ -22,7 +22,7 @@ return ( <>
         <a href="/images/Gabiola_Resume.pdf" rel="noopener noreferrer" target="_blank"><i id="pdf" className="fa fa-file-pdf-o"></i></a>
         </div></center>
         <CopyRight/>
-   </container>
+   </div>
 </>)
 }
 

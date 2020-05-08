@@ -1,12 +1,15 @@
 .navStyle {
     padding: 0px;
-    font-weight: bold;
+    margin: 0px;
+    font-size:1rem;
     font-family: 'Merriweather', serif;
 }
+
 
 #navIcons {
     align-content: right;
 }
 .navIcon {
     color: black;
+    font-size: 1.25rem;
 }

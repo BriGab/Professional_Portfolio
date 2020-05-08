@@ -7,6 +7,14 @@
     padding: 1.5rem;
 }
 
+#hideMe {
+    display: none;
+}
+.showMe {
+    display: inline !important;
+    padding-left: 1rem;
+}
+
 @media only screen and (max-width:750px) {
     #form {
         width: 80%
