@@ -1,0 +1,18 @@
+#tech {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.icon {
+    font-size: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+.icon:hover {
+    filter: brightness(2)
+}
+.sp {
+    font-size: 4rem;
+}
+.white {
+    color:lightgrey !important;
+}

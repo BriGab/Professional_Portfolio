@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react"
-import { Carousel, Container, Row, Col } from "react-bootstrap"
+import { Carousel, Row, Col } from "react-bootstrap"
 import CardImage from "../components/CardImage"
 import CardInfo from "../components/CardInfo"
 import CopyRight from "../components/CopyRight"

@@ -2,9 +2,9 @@
     width: 50%;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgb(180, 180, 180, .7);
+    background-color: rgb(180, 180, 180, .5);
     flex: 1 0 auto;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 #hideMe {
