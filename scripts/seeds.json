@@ -4,7 +4,7 @@
         "description": "MoJo is a mood based journaling app designed to be a safe space for a mood influenced writing atmoshpere where users can save edit and comment on journal posts",
         "image": "/images/Mojo.png",
         "githubRepo": "https://github.com/BriGab/Project-Two",
-        "githubPages":"null",
+        "githubPages": null,
         "heroku": "https://immense-retreat-62376.herokuapp.com/"
     },
     {
@@ -12,7 +12,7 @@
         "description": "A boredom cure served up with MERN bringing you activity ideas from a team built API",
         "image": "/images/Quarantivities.png",
         "githubRepo": "https://github.com/BriGab/Quarantivities",
-        "githubPages": "null",
+        "githubPages": null,
         "heroku": "https://rocky-inlet-27187.herokuapp.com/"
     },
     {
@@ -20,7 +20,7 @@
         "description": "A dead simple React app showcasing ability to pull in 3rd party data and display dynamically. The search bar is powered by Object.values() to filter search.",
         "image": "/images/React.png",
         "githubRepo": "https://github.com/BriGab/React-Employee-Directory",
-        "githubPages": "null",
+        "githubPages": null,
         "heroku": "https://mighty-cove-87859.herokuapp.com/"
     },
     {
@@ -29,14 +29,14 @@
         "image": "/images/Calendar.png",
         "githubRepo": "https://github.com/BriGab/Calendar-index.html",
         "githubPages": "https://brigab.github.io/Calendar-index.html/",
-        "heroku": "null"
+        "heroku": null
     },
     {
         "title":"Express Note Taker",
         "description": "Note Taker is an Express Node.js application that allows users to write, save, and delete notes",
         "image": "/images/Note.png",
         "githubRepo": "https://github.com/BriGab/Note-Taker",
-        "githubPages": "null",
+        "githubPages": null,
         "heroku": "https://quiet-depths-34552.herokuapp.com/"
     },
     {
@@ -45,7 +45,7 @@
         "image": "/images/weather.png",
         "githubRepo": "https://github.com/BriGab/weather-index",
         "githubPages": "https://brigab.github.io/weather-index/",
-        "heroku": "null"
+        "heroku": null
     }
 
 ]

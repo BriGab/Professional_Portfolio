@@ -3,7 +3,7 @@ import {Carousel} from "react-bootstrap"
 import "./style.css"
 
 function CardInfo (props) {
-
+  
     return (<>
       <Carousel.Caption id="words">
         <a className="carLinks" href={props.githubPages ? props.githubPages : props.heroku} rel="noopener noreferrer" target="_blank"><h3>{props.title}</h3></a>
