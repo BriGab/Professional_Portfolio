@@ -67,6 +67,7 @@
 .carousel {
     padding-top: 2%;
     width: 80%;
+    height: 100%;
 }
 #projects {
     color: white;
@@ -140,11 +141,6 @@
         background-image: url("/images/dark-flipped.jpg");
         background-position: -600px -25px;
     } 
-}
-@media only screen and (max-width:1000px) {
-    #port {
-        /* background-position: -800px -100px; */
-    }
 }
 @media only screen and (max-width:900px) {
     .background, #port {
