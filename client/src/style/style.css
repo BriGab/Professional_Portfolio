@@ -5,7 +5,7 @@
     padding-bottom: 80px;
 }
 /* Background for contact and home page */
-.background {
+.background, #port {
     background-image: url("/images/dark-flipped.jpg");
     background-position: -250px -25px;
     font-family:'Merriweather', serif;
@@ -53,7 +53,7 @@
 }
 
 /* Porfolio page styling */
-#port {
+/* #port {
     background-image: url("/images/dark.jpg");
     background-size: cover;
     font-family:'Merriweather', serif;
@@ -63,7 +63,7 @@
     margin: 0;
     margin-right: 0;
     padding-right: 0;
-}
+} */
 .carousel {
     padding-top: 2%;
     width: 80%;
@@ -129,25 +129,25 @@
 /* Media Queries */
 
 @media only screen and (max-width:1600px) {
-    .background {
+    .background, #port {
         background-image: url("/images/dark-flipped.jpg");
         background-position: -400px -25px;
     } 
 }
 
 @media only screen and (max-width:1300px) {
-    .background {
+    .background, #port {
         background-image: url("/images/dark-flipped.jpg");
         background-position: -600px -25px;
     } 
 }
 @media only screen and (max-width:1000px) {
     #port {
-        background-position: -800px -100px;
+        /* background-position: -800px -100px; */
     }
 }
 @media only screen and (max-width:900px) {
-    .background {
+    .background, #port {
         background-image: url("/images/dark-flipped.jpg");
         background-position: -800px -25px;
     } 
