@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // Connect to the Mongo DB
-mongoose.connect(process.env.DB_URI || "mongodb://localhost:27017/portfolio", {
+mongoose.connect(process.env.DB_URI || "mongodb://Brigabiola:backflip5@qcluster-shard-00-00.06k4l.mongodb.net:27017,qcluster-shard-00-01.06k4l.mongodb.net:27017,qcluster-shard-00-02.06k4l.mongodb.net:27017/heroku_zrlxgm8f?ssl=true&replicaSet=atlas-wis5f7-shard-0&authSource=admin&retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
