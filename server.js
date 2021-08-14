@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // Connect to the Mongo DB
-mongoose.connect(process.env.DB_URI || "mongodb+srv://Brigab:backflip5@cluster-zrlxgm8f.rmshn.mongodb.net/heroku_zrlxgm8f?retryWrites=true&w=majority", {
+mongoose.connect(process.env.DB_URI || `mongodb+srv://Brigab:${ATLAS}@cluster-zrlxgm8f.rmshn.mongodb.net/heroku_zrlxgm8f?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
