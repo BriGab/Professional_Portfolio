@@ -5,16 +5,16 @@
     padding-bottom: 80px;
 }
 /* Background for contact and home page */
-.background, #port {
-    background-image: url("/images/dark-flipped.jpg");
-    background-position: -250px -25px;
-    font-family:'Merriweather', serif;
+body {
+    background-image: linear-gradient(#163832, #8EB69B);
+ 
+    font-family: 'Staatliches', serif;
     height: 100%;
     display: flex;
     flex-direction: column; 
 } 
 /* Home page styling */
-#name {
+/* #name {
     font-size: 5rem;
     text-align: center;
     padding-top: 2rem;
@@ -22,7 +22,7 @@
     font-family: "News Cycle", "Arial Narrow Bold", sans-serif;
     font-weight: 700;
     color: white;
-}
+} */
 #main { 
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
@@ -131,20 +131,20 @@
 
 @media only screen and (max-width:1600px) {
     .background, #port {
-        background-image: url("/images/dark-flipped.jpg");
+        background-image: linear-gradient(#163832, #8EB69B);
         background-position: -400px -25px;
     } 
 }
 
 @media only screen and (max-width:1300px) {
     .background, #port {
-        background-image: url("/images/dark-flipped.jpg");
+        background-image: linear-gradient(#163832, #8EB69B);
         background-position: -600px -25px;
     } 
 }
 @media only screen and (max-width:900px) {
     .background, #port {
-        background-image: url("/images/dark-flipped.jpg");
+        background-image: linear-gradient(#163832, #8EB69B);
         background-position: -800px -25px;
     } 
 }
